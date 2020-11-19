@@ -1,0 +1,29 @@
+[Unit]
+Description=Rantimator
+ConditionPathExists=/home/rantimator
+After=network.target
+
+[Service]
+Type=simple
+User=rantimator
+Group=rantimator
+LimitNOFILE=1024
+
+Restart=on-failure
+RestartSec=10
+startLimitIntervalSec=60
+
+WorkingDirectory=/home/rantimator
+ExecStart=/home/rantimator/rantimator
+
+# make sure log directory exists and owned by syslog
+PermissionsStartOnly=true
+ExecStartPre=/bin/mkdir -p /var/log/rantimator
+ExecStartPre=/bin/chown syslog:adm /var/log/rantimator
+ExecStartPre=/bin/chmod 755 /var/log/rantimator
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=rantimator
+
+[Install]
+WantedBy=multi-user.target
