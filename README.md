@@ -4,6 +4,8 @@ Let's howl at the moon!
 
 Message [@RantimatorBot](http://t.me/RantimatorBot) on Telegram.
 
+![Example conversation](sample.png)
+
 Find your howl on [rants.tsak.net](https://rants.tsak.net)
 
 ## Config
