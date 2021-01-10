@@ -2,7 +2,7 @@
 
 Let's howl at the moon!
 
-Message [@RantimatorBot](http://t.me/RantimatorBot) on Telegram.
+~Message [@RantimatorBot](http://t.me/RantimatorBot) on Telegram.~
 
 ![Example conversation](sample.png)
 
