@@ -6,7 +6,7 @@ Let's howl at the moon!
 
 ![Example conversation](sample.png)
 
-Find your howl on [rants.tsak.net](https://rants.tsak.net)
+~Find your howl on [rants.tsak.net](https://rants.tsak.net)~
 
 ## Config
 
